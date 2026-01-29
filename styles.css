@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f2027, #6fd6a6, #c69d5d);
+  color: white;
+  min-height: 100vh;
+
+  /* This centers the whole card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Reusable centering utility */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Profile image */
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+
+/* Text */
+h1 {
+  margin-bottom: 5px;
+}
+
+p {
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+/* Links */
+a {
+  display: block;
+  text-decoration: none;
+  background: white;
+  color: black;
+  padding: 15px;
+  margin: 12px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+a:hover {
+  transform: scale(1.03);
+  background: #f0f0f0;
+}
+
+
+
